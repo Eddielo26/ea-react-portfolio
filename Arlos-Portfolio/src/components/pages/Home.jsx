@@ -28,19 +28,18 @@ function Home() {
       </nav>
       <footer className="contact">
         <a href="https://github.com/Eddielo26" className="contactEl">
-          <FaGithub />
+          <FaGithub size={21}/>
         </a>
-        <a href="mailto: eddarlostudy@yahoo.com" className="contactEl">
-          <AiOutlineMail />
-        </a>
+        <Link className="contactEl" to="/contact">
+          <AiOutlineMail size={21}/></Link>
         <a
           href="https://www.linkedin.com/in/edd-arlo-garcia-60398895/"
           className="contactEl"
         >
-          <AiFillLinkedin />
+          <AiFillLinkedin size={21}/>
         </a>
         <a className="contactEl">
-          <IoIosPaper />
+          <IoIosPaper size={21}/>
         </a>
       </footer>
     </header>
