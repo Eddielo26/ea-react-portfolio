@@ -23,22 +23,31 @@ function Home() {
           About
         </Link>
         <Link className="navEl" to="/project">
-          Project
+          Projects
+        </Link>
+        <Link className="navEl" to="/contact">
+          Contact
+        </Link>
+        <Link className="navEl" to="/resume">
+          Resume
         </Link>
       </nav>
       <footer className="contact">
-        <a href="https://github.com/Eddielo26" className="contactEl">
+        <a href="https://github.com/Eddielo26" className="contactEl"
+        target="_blank" rel="noreferrer">
           <FaGithub size={21}/>
         </a>
-        <Link className="contactEl" to="/contact">
-          <AiOutlineMail size={21}/></Link>
+        <a href="mailto: eddarlostudy@yahoo.com">
+          <AiOutlineMail size={21}/></a>
         <a
           href="https://www.linkedin.com/in/edd-arlo-garcia-60398895/"
-          className="contactEl"
+          className="contactEl" target="_blank" rel="noreferrer"
         >
           <AiFillLinkedin size={21}/>
         </a>
-        <a className="contactEl">
+        <a className="contactEl"
+        href={process.env.PUBLIC_URL + "/Edd-Arlo-Garcia-RESUME.pdf"}
+        target="_blank" rel="noreferrer">
           <IoIosPaper size={21}/>
         </a>
       </footer>

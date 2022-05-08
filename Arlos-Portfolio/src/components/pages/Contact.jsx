@@ -53,7 +53,8 @@ function ContactForm() {
           />
         </div>
         <div>
-          <label htmlFor="email">Email address:</label>
+            
+          <label action="https://formspree.io/eddarlostudy@yahoo.com" method="POST" htmlFor="email">Email address:</label>
           <input
             type="email"
             name="email"
