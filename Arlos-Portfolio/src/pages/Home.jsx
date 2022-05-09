@@ -4,34 +4,35 @@ import { FaGithub } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoIosPaper } from "react-icons/io";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
     <header>
       <section>
+      <nav className="navbar navbar-dark bg-black nav-pills justify-content-end px-2">
+        <Link className="navTop text-white px-2" to="/">
+          Home
+        </Link>
+        <Link className="navTop text-white px-2" to="/about">
+          About
+        </Link>
+        <Link className="navTop text-white px-2" to="/project">
+          Projects
+        </Link>
+        <Link className="navTop text-white px-2" to="/contact">
+          Contact
+        </Link>
+        <Link className="navTop text-white px-2" to="/resume">
+          Resume
+        </Link>
+      </nav>
         <h2 className="title">Edd-Arlo Garcia</h2>
 
         <video autoPlay loop muted className="video">
           <source src="/images/video.mp4" type="video/mp4" />
         </video>
       </section>
-      <nav className="navbar">
-        <Link className="navEl" to="/">
-          Home
-        </Link>
-        <Link className="navEl" to="/about">
-          About
-        </Link>
-        <Link className="navEl" to="/project">
-          Projects
-        </Link>
-        <Link className="navEl" to="/contact">
-          Contact
-        </Link>
-        <Link className="navEl" to="/resume">
-          Resume
-        </Link>
-      </nav>
       <footer className="contact">
         <a href="https://github.com/Eddielo26" className="contactEl"
         target="_blank" rel="noreferrer">

@@ -1,4 +1,9 @@
 import React from "react";
+import { CgWebsite } from "react-icons/cg";
+import { FaGithub } from "react-icons/fa";
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function Project(props) {
   return (
@@ -10,7 +15,7 @@ function Project(props) {
               <div className="card-image">
                 <figure className="image is-4by3">
                   <a href={project.live} target="_blank" rel="noreferrer">
-                    <img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" />
+                    <img src={process.env.PUBLIC_URL + project.image} alt="Placeholder image" height={100} width={150} />
                   </a>
                 </figure>
               </div>
@@ -33,7 +38,7 @@ function Project(props) {
                         className="card-footer-item"
                         target="_blank" rel="noreferrer"
                       >
-                        See the Repo!
+                        <FaGithub size={21}/>
                       </a>
                       <br />
                       <a
@@ -41,7 +46,7 @@ function Project(props) {
                         className="card-footer-item"
                         target="_blank" rel="noreferrer"
                       >
-                        See the Live Site!
+                        <CgWebsite size={21}/>
                       </a>
                     </footer>
                   </div>
