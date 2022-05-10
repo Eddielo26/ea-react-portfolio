@@ -4,13 +4,13 @@ import { FaGithub } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoIosPaper } from "react-icons/io";
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home() {
   return (
     <header>
       <section>
-      <nav className="navbar navbar-dark bg-black nav-pills justify-content-end px-2">
+      <nav className="navbar navbar-dark bg-black nav-pills justify-content-end  px-2">
         <Link className="navTop text-white px-2" to="/">
           Home
         </Link>
@@ -27,7 +27,7 @@ function Home() {
           Resume
         </Link>
       </nav>
-        <h2 className="title">Edd-Arlo Garcia</h2>
+        {/* <h2 className="title">Edd-Arlo Garcia</h2> */}
 
         <video autoPlay loop muted className="video">
           <source src="/images/video.mp4" type="video/mp4" />
@@ -36,20 +36,20 @@ function Home() {
       <footer className="contact">
         <a href="https://github.com/Eddielo26" className="contactEl"
         target="_blank" rel="noreferrer">
-          <FaGithub size={21}/>
+          <FaGithub size={15}/>
         </a>
         <a href="mailto: eddarlostudy@yahoo.com">
-          <AiOutlineMail size={21}/></a>
+          <AiOutlineMail size={15}/></a>
         <a
           href="https://www.linkedin.com/in/edd-arlo-garcia-60398895/"
           className="contactEl" target="_blank" rel="noreferrer"
         >
-          <AiFillLinkedin size={21}/>
+          <AiFillLinkedin size={15}/>
         </a>
-        <a className="contactEl"
+        <a className=""
         href={process.env.PUBLIC_URL + "/Edd-Arlo-Garcia-RESUME.pdf"}
         target="_blank" rel="noreferrer">
-          <IoIosPaper size={21}/>
+          <IoIosPaper size={15}/>
         </a>
       </footer>
     </header>

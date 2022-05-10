@@ -4,7 +4,7 @@
   border: 0;
   outline: 0;
   text-decoration: none;
-  /* color: #f5f5f5; */
+  color: #f5f5f5;
   }
 
   
@@ -32,7 +32,7 @@
   }
 
   section {
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
   }
 
   section > h2,
@@ -56,22 +56,13 @@
   }
 
   
-  /* .nav {
-    
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    text-align: right;
-  } */
+ 
   
   .navTop {
     
     /* padding: 10px; */
     text-decoration: none;
-    /* font-size: 20px; */
+    font-size: 14px;
     /* font-weight: bold; */
   }
   .contact {
@@ -112,3 +103,25 @@
   .bg-black {
     opacity: 60%;
   }
+
+  /* .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  } */
+ 
+  .card {
+    margin: 2rem;
+    height: 150px;
+    width: 120px;
+    border: 1px solid rgb(32, 31, 31);
+    border-radius: 6px;
+  }
+
+  .card-header {
+    font-size: 8px;
+    border-radius: 10px;
+  }
+
+  

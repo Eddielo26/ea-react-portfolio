@@ -8,7 +8,7 @@ const projects = [
         
         title: "KLEC Inc. Pokedex",
         image: "/images/pokedex.png",
-        description: "",
+        // description: "Find pokemon within your area",
         repo: "https://github.com/VAalchemist/KLEC-search-inc",
         live: "https://vaalchemist.github.io/KLEC-search-inc/",
       },
@@ -16,7 +16,7 @@ const projects = [
         
         title: "Duty Call",
         image: "/images/dutycall.png",
-        description: "",
+        // description: "Hire a handyman",
         repo: "https://github.com/VAalchemist/CASK-inc",
         live: "https://young-thicket-71102.herokuapp.com/index",
       },
@@ -24,7 +24,7 @@ const projects = [
        
         title: "Budget Tracker",
         image: "/images/budgettracker.png",
-        description: "",
+        description: "Keep your finances in order",
         repo: "https://github.com/Eddielo26/EA-Budget-Tracker",
         live: "https://morning-citadel-50858.herokuapp.com/",
       },
@@ -32,7 +32,7 @@ const projects = [
         
         title: "Weather Dashboard",
         image: "/images/weather.png",
-        description: "",
+        // description: "Search up weather conditions",
         repo: "https://github.com/Eddielo26/EA-Weather-Dashboard",
         live: "https://eddielo26.github.io/EA-Weather-Dashboard/",
       },
@@ -40,7 +40,7 @@ const projects = [
         
         title: "Daily Planner",
         image: "/images/planner.png",
-        description: "",
+        // description: "Plan your day accordingly",
         repo: "https://github.com/Eddielo26/EA-Work-day-scheduler",
         live: "https://eddielo26.github.io/EA-Work-day-scheduler/",
       },
@@ -48,19 +48,18 @@ const projects = [
         
         title: "Quiz",
         image: "/images/quiz.png",
-        description: "",
+        // description: "Test your knowledge",
         repo: "https://github.com/Eddielo26/EA-Code-Quiz",
         live: "https://eddielo26.github.io/EA-Code-Quiz/",
       },
 ]
 function Portfolio() {
     return (
-      <div>
-        <p className="content is-medium">Portfolio</p>
-        <hr />
-  
+      
+      <div className = "container ">
         <Project projects={projects} />
       </div>
+    
     );
   }
   
