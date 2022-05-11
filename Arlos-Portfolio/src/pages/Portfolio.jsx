@@ -1,8 +1,6 @@
 import React from "react";
 import Project from "./Project";
 
-
-
 const projects = [
     {
         
@@ -56,7 +54,8 @@ const projects = [
 function Portfolio() {
     return (
       
-      <div className = "container ">
+      <div>
+      <h1>Projects</h1>
         <Project projects={projects} />
       </div>
     

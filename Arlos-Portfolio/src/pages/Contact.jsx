@@ -28,22 +28,14 @@ import emailjs from 'emailjs-com'
        <div className="container contact_container">
          <div className="contact_options">
            <article className="contact_option">
-           <AiOutlineMail className='contact_option-icon'/>
+           <AiOutlineMail className='contact_option-icon '/>
             <h4>Email</h4>
-            <h5>eddarlostudy@yahoo.com</h5>
-            <a href="mailto: eddarlostudy@yahoo.com">send a message</a>
+            <a href="mailto: eddarlostudy@yahoo.com">Send Message</a>
            </article>
            <article className="contact_option">
            <BsMessenger className='contact_option-icon'/>
             <h4>Messenger</h4>
-            <h5>Edd-Arlo Garcia</h5>
-            <a target="_blank" rel="noreferrer" href="https://m.me/eddarlo.garcia">send a message</a>
-           </article>
-           <article className="contact_option">
-           <AiOutlineMail className='contact_option-icon'/>
-            <h4>Email</h4>
-            <h5>eddarlostudy@yahoo.com</h5>
-            <a href="mailto: eddarlostudy@yahoo.com">send a message</a>
+            <a target="_blank" rel="noreferrer" href="https://m.me/eddarlo.garcia">Send Message</a>
            </article>
          </div>
          <form ref={form} onSubmit={sendEmail}>

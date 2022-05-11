@@ -4,7 +4,7 @@
   border: 0;
   outline: 0;
   text-decoration: none;
-  color: #f5f5f5;
+  /* color: #f5f5f5; */
   }
 
   
@@ -28,12 +28,11 @@
   }
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
+
   }
 
-  section {
-    /* margin-top: 8rem; */
-  }
+
 
   section > h2,
   section > h5 {
@@ -54,15 +53,12 @@
     cursor: pointer;
     border: 1px solid green;
   }
-
-  
- 
   
   .navTop {
     
     /* padding: 10px; */
     text-decoration: none;
-    font-size: 14px;
+    font-size: 20px;
     /* font-weight: bold; */
   }
   .contact {
@@ -80,7 +76,12 @@
     display: inline-block;
     margin: 0 10px;
     text-decoration: none;
+    color: white;
   
+  }
+
+  .contactEl:hover {
+    color: rgb(28, 196, 129)
   }
 
   .video {
@@ -104,24 +105,40 @@
     opacity: 60%;
   }
 
-  /* .container {
+  .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 4rem;
+    opacity: 85%;
 
-  } */
- 
+  }
+
   .card {
-    margin: 2rem;
-    height: 150px;
-    width: 120px;
-    border: 1px solid rgb(32, 31, 31);
+    margin: 10px;
+    height: 300px;
+    width: 250px;
+    border: 2px solid rgb(32, 31, 31);
     border-radius: 6px;
   }
 
   .card-header {
-    font-size: 8px;
+    font-size: 18px;
+    text-align: center;
     border-radius: 10px;
   }
 
-  
+  .link {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 6px;
+  }
+
+  .aloha {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+  }
