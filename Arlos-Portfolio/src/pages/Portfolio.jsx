@@ -55,7 +55,7 @@ function Portfolio() {
     return (
       
       <div>
-      <h1>Projects</h1>
+      <h1>Portfolio</h1>
         <Project projects={projects} />
       </div>
     
