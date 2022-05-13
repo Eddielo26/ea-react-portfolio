@@ -1,29 +1,27 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 .container.contact_container {
+
     width:58%;
-    display: grid;
-    grid-template-columns: 30% 58%;
-    gap:12%;
+    display: flex;
+    gap:5%;
 }
 
 .contact_options {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+    display: block;
 }
 
 .contact_option {
     background: rgb(49, 112, 222);
     padding: 1.2rem;
     text-align: center;
-    border: 2px solid black;
-    border-radius: 0.5rem;
-    
-
+    border-radius: 0.5rem; 
+    margin-bottom: 1rem;
+    font-family: 'Handlee', cursive;
 }
 
+
 .contact_option:hover {
-    background: rgb(28, 196, 129);
+    background: rgb(79, 84, 82);
 }
 
 .contact_option-icon {
@@ -37,7 +35,11 @@
     display: inline-block;
     font-size: 15px;
     color:white;
+    font-family: 'Handlee', cursive;
     text-decoration: none;
+}
+.send {
+    font-family: 'Handlee', cursive;
 }
 
 form {
@@ -47,12 +49,27 @@ form {
 }
 
 input, textarea {
-    width: 100%;
+    width: 310px;
     padding: 1.5rem;
     border-radius: 0.5rem;
-    /* background: transparent; */
-    border: 2px solid;
     resize: none;
+    color:black;
+    font-family: 'Handlee', cursive;
 
     }
 
+    @media screen and (max-width: 710px) {
+        .container.contact_container {
+            /* width:58%;
+            display: grid;
+            grid-template-columns: 30% 58%;
+            gap:5%; */
+            width:58%;
+            display: flex;
+            gap:5%;
+        }
+        .contact_options {
+            display: flex;;
+            gap: 1.2rem;
+        }
+      }
