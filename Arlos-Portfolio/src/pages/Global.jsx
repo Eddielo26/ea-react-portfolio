@@ -4,8 +4,6 @@ import { FaGithub } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoIosPaper } from "react-icons/io";
-import me from "../Assets/images/me.png";
-import { Image } from "../components/image.styles";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Global() {

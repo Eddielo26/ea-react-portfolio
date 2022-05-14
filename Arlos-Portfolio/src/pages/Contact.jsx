@@ -11,6 +11,13 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+// lets user know message was sent
+  const feedbackEl = document.querySelector(".feedback");
+    feedbackEl.setAttribute("class", "feedback");
+  setTimeout(function() {
+    feedbackEl.setAttribute("class", "feedback hide");
+  }, 4000);
+
     emailjs
       .sendForm(
         "service_fu0e95l",
@@ -69,6 +76,7 @@ const Contact = () => {
           <button type="submit" className="send btn btn-primary text-white">
             Send Message
           </button>
+          <div className="feedback hide"><img src="/images/mahalo.png" alt="" height='150'/></div>
         </form>
       </div>
     </section>

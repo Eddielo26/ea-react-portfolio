@@ -6,11 +6,6 @@ function About() {
         <section className="text-white pt-4">
         <h2>About Me</h2></section>
         <section className="about-container">
-        <a className="container"
-            href={process.env.PUBLIC_URL + "/Edd-Arlo-Garcia-RESUME.pdf"}
-            target="_blank" rel="noreferrer"
-          >
-          </a>
           </section>
           <section className= "text-white pt-4">
    
@@ -24,7 +19,12 @@ function About() {
         </p>
         <div className="aboutMe-img">
     <img src="/images/shaka.png" alt="" height='220'/>
+        <a 
+            href={process.env.PUBLIC_URL + "/Edd-Arlo-Garcia-RESUME.pdf"}
+            target="_blank" rel="noreferrer"
+          >
     <button className="dl btn btn-primary">Download CV</button>
+          </a>
     </div>
         </div>
       

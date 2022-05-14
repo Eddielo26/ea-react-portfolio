@@ -42,6 +42,10 @@
     font-family: 'Handlee', cursive;
 }
 
+.hide {
+    display: none;
+}
+
 form {
     display: flex;
     flex-direction: column;
