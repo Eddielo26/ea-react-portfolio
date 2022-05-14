@@ -1,4 +1,5 @@
 import React from "react";
+import shaka from '../Assets/images/shaka.png'
 
 function About() {
     return (
@@ -18,7 +19,7 @@ function About() {
                     I can take my family on.
         </p>
         <div className="aboutMe-img">
-    <img src="/images/shaka.png" alt="" height='220'/>
+    <img src={shaka} alt="" height='220'/>
         <a 
             href={process.env.PUBLIC_URL + "/Edd-Arlo-Garcia-RESUME.pdf"}
             target="_blank" rel="noreferrer"

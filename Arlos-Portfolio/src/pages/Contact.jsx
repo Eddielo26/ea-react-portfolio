@@ -1,6 +1,7 @@
 // import React from "react";
 import React, { useRef } from "react";
 import contact from "../Assets/Styles/contact.css";
+import mahalo from '../Assets/images/mahalo.png';
 import { AiOutlineMail } from "react-icons/ai";
 import { BsMessenger } from "react-icons/bs";
 import emailjs from "emailjs-com";
@@ -76,7 +77,7 @@ const Contact = () => {
           <button type="submit" className="send btn btn-primary text-white">
             Send Message
           </button>
-          <div className="feedback hide"><img src="/images/mahalo.png" alt="" height='150'/></div>
+          <div className="feedback hide"><img src={mahalo} alt="" height='150'/></div>
         </form>
       </div>
     </section>
