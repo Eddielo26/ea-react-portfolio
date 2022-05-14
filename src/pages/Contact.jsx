@@ -1,4 +1,3 @@
-// import React from "react";
 import React, { useRef } from "react";
 import contact from "../Assets/Styles/contact.css";
 import mahalo from '../Assets/images/mahalo.png';
@@ -38,7 +37,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <section className="contact">
+    <section className={contact}>
       <h2 className="text-white pt-4">Contact Me</h2>
 
       <div className="container contact_container">
