@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoIosPaper } from "react-icons/io";
+import waves from '../Assets/images/video.mp4';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Global() {
@@ -11,7 +12,7 @@ function Global() {
     <section>
       <header>
         <video autoPlay loop muted className="video">
-          <source src="/images/video.mp4" type="video/mp4" />
+          <source src={waves} type="video/mp4" />
         </video>
         <nav className="navbar navbar-dark bg-black nav-pills justify-content-end  px-2">
           <Link className="navTop text-white px-2" to="/">
